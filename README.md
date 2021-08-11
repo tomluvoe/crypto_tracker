@@ -1,3 +1,5 @@
 CRYPTO TRACKER
 ==============
-More info to come..
+On Raspberry PI:
+- sudo apt install libatlas-base-dev
+

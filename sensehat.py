@@ -3,6 +3,7 @@
 from crypto_tracker import CryptoTracker
 from sense_hat import SenseHat
 import time
+import re
 
 red = (255, 0, 0)
 green = (0, 255, 0)
