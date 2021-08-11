@@ -26,4 +26,4 @@ while 1:
         ma = re.search('([-+]?\d*\.\d+)%', coin)
         if ma:
             fg_color = green if float(ma.group(1)) > 0 else red
-        sense.show_message(coin, fg_color, bg_color)
+        sense.show_message(coin, text_colour=fg_color, back_colour=bg_color)
