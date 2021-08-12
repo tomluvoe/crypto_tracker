@@ -22,7 +22,7 @@ class CryptoTracker:
             self.success = True
             self.date = response.json()[0]['last_updated'].replace('T', ' ')
             self.crypto_string = ''
-            self.crypto_list = [self.date]
+            self.crypto_list = []
             for resp in response.json():
                 sym = resp['symbol'].upper()
                 pct = f"{round(resp['price_change_percentage_24h'],1)}%"
